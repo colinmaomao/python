@@ -1,0 +1,9 @@
+ 创建数据库
+ create database tinytest charset utf8;
+1. python3 bin/tiny.py  syncdb
+2. python3 bin/tiny.py create_hosts -f  share/examples/new_hosts.yml
+3. python3 bin/tiny.py create_remoteusers -f share/examples/new_remoteusers.yml 
+4. python3 bin/tiny.py create_users -f share/examples/new_user.yml 
+5. python3 bin/tiny.py create_groups -f share/examples/new_groups.yml
+6. python3 bin/tiny.py create_bindhosts -f share/examples/new_bindhosts.yml
+7. python3 bin/tiny.py start_session

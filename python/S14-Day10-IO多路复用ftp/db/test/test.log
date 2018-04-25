@@ -1,0 +1,553 @@
+Nov 22 22:30:57 puppet puppet-agent[42774]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 22 22:30:58 puppet puppet-agent[42774]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 22 22:30:59 puppet puppet-agent[42774]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 22 22:30:59 puppet puppet-agent[42774]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 22 22:31:00 puppet puppet-agent[42774]: Could not send report: getaddrinfo: Name or service not known
+Nov 22 22:31:10 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:60::29#53
+Nov 22 23:00:55 puppet puppet-agent[43056]: Unable to fetch my node definition, but the agent run will continue:
+Nov 22 23:00:55 puppet puppet-agent[43056]: getaddrinfo: Name or service not known
+Nov 22 23:00:56 puppet puppet-agent[43056]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 22 23:00:57 puppet puppet-agent[43056]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 22 23:00:57 puppet puppet-agent[43056]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 22 23:00:58 puppet puppet-agent[43056]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 22 23:01:00 puppet puppet-agent[43056]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 22 23:01:00 puppet puppet-agent[43056]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 22 23:01:01 puppet puppet-agent[43056]: Could not send report: getaddrinfo: Name or service not known
+Nov 22 23:30:54 puppet puppet-agent[43368]: Unable to fetch my node definition, but the agent run will continue:
+Nov 22 23:30:54 puppet puppet-agent[43368]: getaddrinfo: Name or service not known
+Nov 22 23:30:55 puppet puppet-agent[43368]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 22 23:30:56 puppet puppet-agent[43368]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 22 23:30:57 puppet puppet-agent[43368]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 22 23:30:58 puppet puppet-agent[43368]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 22 23:30:59 puppet puppet-agent[43368]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 22 23:31:00 puppet puppet-agent[43368]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 22 23:31:00 puppet puppet-agent[43368]: Could not send report: getaddrinfo: Name or service not known
+Nov 22 23:31:11 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.biz/A/IN': 2001:dcd:2::2#53
+Nov 22 23:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.biz/AAAA/IN': 2610:a1:1015::e8#53
+Nov 22 23:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.biz/AAAA/IN': 2001:dcd:1::2#53
+Nov 23 00:00:56 puppet puppet-agent[43659]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 00:00:56 puppet puppet-agent[43659]: getaddrinfo: Name or service not known
+Nov 23 00:00:57 puppet puppet-agent[43659]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 00:00:57 puppet puppet-agent[43659]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 00:00:58 puppet puppet-agent[43659]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 00:00:59 puppet puppet-agent[43659]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 00:01:01 puppet puppet-agent[43659]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 00:01:01 puppet puppet-agent[43659]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 00:01:02 puppet puppet-agent[43659]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 00:30:54 puppet puppet-agent[43976]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 00:30:54 puppet puppet-agent[43976]: getaddrinfo: Name or service not known
+Nov 23 00:30:55 puppet puppet-agent[43976]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 00:30:56 puppet puppet-agent[43976]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 00:30:57 puppet puppet-agent[43976]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 00:30:58 puppet puppet-agent[43976]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 00:30:59 puppet puppet-agent[43976]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 00:30:59 puppet puppet-agent[43976]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 00:31:00 puppet puppet-agent[43976]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 01:00:54 puppet puppet-agent[44258]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 01:00:54 puppet puppet-agent[44258]: getaddrinfo: Name or service not known
+Nov 23 01:00:55 puppet puppet-agent[44258]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 01:00:56 puppet puppet-agent[44258]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 01:00:57 puppet puppet-agent[44258]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 01:00:57 puppet puppet-agent[44258]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 01:00:59 puppet puppet-agent[44258]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 01:00:59 puppet puppet-agent[44258]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 01:01:00 puppet puppet-agent[44258]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 01:30:54 puppet puppet-agent[44575]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 01:30:54 puppet puppet-agent[44575]: getaddrinfo: Name or service not known
+Nov 23 01:30:55 puppet puppet-agent[44575]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 01:30:56 puppet puppet-agent[44575]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 01:30:57 puppet puppet-agent[44575]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 01:30:58 puppet puppet-agent[44575]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 01:30:59 puppet puppet-agent[44575]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 01:30:59 puppet puppet-agent[44575]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 01:31:00 puppet puppet-agent[44575]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:4f8:0:2::20#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/A/IN': 2001:502:f3ff::e8#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ns2.isc.ultradns.net/A/IN': 2001:502:f3ff::e8#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/AAAA/IN': 2001:502:f3ff::e8#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ns2.isc.ultradns.net/AAAA/IN': 2001:502:f3ff::e8#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/A/IN': 2001:dcd:1::5#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.alpha.aridns.net.au/A/IN': 2001:dcd:1::5#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/AAAA/IN': 2001:dcd:1::5#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.alpha.aridns.net.au/AAAA/IN': 2001:dcd:1::5#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.biz/A/IN': 2610:a1:1015::e8#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.biz/AAAA/IN': 2610:a1:1015::e8#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.alpha.aridns.net.au/A/IN': 2001:dcd:4::2#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/A/IN': 2001:dcd:4::2#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/AAAA/IN': 2001:dcd:4::2#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.alpha.aridns.net.au/A/IN': 2001:dcd:3::2#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/A/IN': 2001:dcd:3::2#53
+Nov 23 01:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/AAAA/IN': 2001:dcd:3::2#53
+Nov 23 02:00:54 puppet puppet-agent[44857]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 02:00:54 puppet puppet-agent[44857]: getaddrinfo: Name or service not known
+Nov 23 02:00:55 puppet puppet-agent[44857]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 02:00:56 puppet puppet-agent[44857]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 02:00:57 puppet puppet-agent[44857]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 02:00:57 puppet puppet-agent[44857]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 02:00:59 puppet puppet-agent[44857]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 02:00:59 puppet puppet-agent[44857]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 02:01:00 puppet puppet-agent[44857]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 02:30:54 puppet puppet-agent[45174]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 02:30:54 puppet puppet-agent[45174]: getaddrinfo: Name or service not known
+Nov 23 02:30:55 puppet puppet-agent[45174]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 02:30:56 puppet puppet-agent[45174]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 02:30:57 puppet puppet-agent[45174]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 02:30:58 puppet puppet-agent[45174]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 02:30:59 puppet puppet-agent[45174]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 02:30:59 puppet puppet-agent[45174]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 02:31:00 puppet puppet-agent[45174]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 02:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:2c::254#53
+Nov 23 02:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:60::29#53
+Nov 23 02:32:10 puppet kernel: e1000: eth3 NIC Link is Down
+Nov 23 02:32:12 puppet kernel: e1000: eth3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Nov 23 02:32:18 puppet kernel: e1000: eth3 NIC Link is Down
+Nov 23 02:32:22 puppet kernel: e1000: eth3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Nov 23 02:51:57 puppet kernel: e1000: eth3 NIC Link is Down
+Nov 23 02:52:01 puppet kernel: e1000: eth3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Nov 23 02:52:12 puppet kernel: e1000: eth3 NIC Link is Down
+Nov 23 02:52:16 puppet kernel: e1000: eth3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Nov 23 03:00:04 puppet ntpd[1582]: 0.0.0.0 0628 08 no_sys_peer
+Nov 23 03:00:56 puppet puppet-agent[45456]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 03:00:56 puppet puppet-agent[45456]: getaddrinfo: Name or service not known
+Nov 23 03:00:56 puppet puppet-agent[45456]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 03:00:57 puppet puppet-agent[45456]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 03:00:58 puppet puppet-agent[45456]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 03:00:59 puppet puppet-agent[45456]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 03:01:01 puppet puppet-agent[45456]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 03:01:01 puppet puppet-agent[45456]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 03:01:02 puppet puppet-agent[45456]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 03:23:36 puppet kernel: e1000: eth3 NIC Link is Down
+Nov 23 03:23:42 puppet kernel: e1000: eth3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Nov 23 03:23:54 puppet kernel: e1000: eth3 NIC Link is Down
+Nov 23 03:23:58 puppet kernel: e1000: eth3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Nov 23 03:30:54 puppet puppet-agent[45772]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 03:30:54 puppet puppet-agent[45772]: getaddrinfo: Name or service not known
+Nov 23 03:30:55 puppet puppet-agent[45772]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 03:30:56 puppet puppet-agent[45772]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 03:30:57 puppet puppet-agent[45772]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 03:30:58 puppet puppet-agent[45772]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 03:30:59 puppet puppet-agent[45772]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 03:30:59 puppet puppet-agent[45772]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 03:31:00 puppet puppet-agent[45772]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 03:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:71::30#53
+Nov 23 03:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:60::30#53
+Nov 23 03:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2a01:8840:6::1#53
+Nov 23 03:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:4f8:0:2::19#53
+Nov 23 03:31:12 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2a01:8840:6::1#53
+Nov 23 03:31:13 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:71::29#53
+Nov 23 04:00:54 puppet puppet-agent[46144]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 04:00:54 puppet puppet-agent[46144]: getaddrinfo: Name or service not known
+Nov 23 04:00:55 puppet puppet-agent[46144]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 04:00:56 puppet puppet-agent[46144]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 04:00:57 puppet puppet-agent[46144]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 04:00:58 puppet puppet-agent[46144]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 04:00:59 puppet puppet-agent[46144]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 04:00:59 puppet puppet-agent[46144]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 04:01:00 puppet puppet-agent[46144]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 04:30:54 puppet puppet-agent[46456]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 04:30:54 puppet puppet-agent[46456]: getaddrinfo: Name or service not known
+Nov 23 04:30:55 puppet puppet-agent[46456]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 04:30:56 puppet puppet-agent[46456]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 04:30:57 puppet puppet-agent[46456]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 04:30:58 puppet puppet-agent[46456]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 04:30:59 puppet puppet-agent[46456]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 04:30:59 puppet puppet-agent[46456]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 04:31:00 puppet puppet-agent[46456]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 05:00:54 puppet puppet-agent[46738]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 05:00:54 puppet puppet-agent[46738]: getaddrinfo: Name or service not known
+Nov 23 05:00:55 puppet puppet-agent[46738]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 05:00:56 puppet puppet-agent[46738]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 05:00:57 puppet puppet-agent[46738]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 05:00:57 puppet puppet-agent[46738]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 05:00:59 puppet puppet-agent[46738]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 05:00:59 puppet puppet-agent[46738]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 05:01:00 puppet puppet-agent[46738]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 05:30:54 puppet puppet-agent[47050]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 05:30:54 puppet puppet-agent[47050]: getaddrinfo: Name or service not known
+Nov 23 05:30:55 puppet puppet-agent[47050]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 05:30:56 puppet puppet-agent[47050]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 05:30:57 puppet puppet-agent[47050]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 05:30:57 puppet puppet-agent[47050]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 05:30:59 puppet puppet-agent[47050]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 05:30:59 puppet puppet-agent[47050]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 05:31:00 puppet puppet-agent[47050]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 05:31:13 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:60::30#53
+Nov 23 05:31:13 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2a01:8840:6::1#53
+Nov 23 05:31:13 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:4f8:0:2::19#53
+Nov 23 05:31:13 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2a01:8840:6::1#53
+Nov 23 05:31:13 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:71::30#53
+Nov 23 05:31:13 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2a01:8840:8::1#53
+Nov 23 05:31:13 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2a01:8840:8::1#53
+Nov 23 05:31:13 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2a01:8840:9::1#53
+Nov 23 05:31:13 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2a01:8840:9::1#53
+Nov 23 05:31:14 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:2c::254#53
+Nov 23 05:31:14 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:60::29#53
+Nov 23 05:31:14 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/A/IN': 2610:a1:1017::e8#53
+Nov 23 05:31:14 puppet named-sdb[1434]: error (network unreachable) resolving 'ns2.isc.ultradns.net/A/IN': 2610:a1:1017::e8#53
+Nov 23 05:31:14 puppet named-sdb[1434]: error (network unreachable) resolving 'ns2.isc.ultradns.net/AAAA/IN': 2610:a1:1017::e8#53
+Nov 23 05:31:14 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/AAAA/IN': 2610:a1:1017::e8#53
+Nov 23 05:31:14 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:71::29#53
+Nov 23 05:31:14 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:4f8:0:2::20#53
+Nov 23 05:31:14 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/AAAA/IN': 2001:dcd:2::2#53
+Nov 23 05:31:14 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/AAAA/IN': 2001:dcd:4::2#53
+Nov 23 05:31:14 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.delta.aridns.net.au/AAAA/IN': 2001:dcd:3::2#53
+Nov 23 05:31:14 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.alpha.aridns.net.au/A/IN': 2001:dcd:3::2#53
+Nov 23 06:00:54 puppet puppet-agent[47332]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 06:00:54 puppet puppet-agent[47332]: getaddrinfo: Name or service not known
+Nov 23 06:00:55 puppet puppet-agent[47332]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 06:00:56 puppet puppet-agent[47332]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 06:00:57 puppet puppet-agent[47332]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 06:00:57 puppet puppet-agent[47332]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 06:00:59 puppet puppet-agent[47332]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 06:00:59 puppet puppet-agent[47332]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 06:01:00 puppet puppet-agent[47332]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 06:13:08 puppet ntpd[1582]: 0.0.0.0 0613 03 spike_detect +29922.300790 s
+Nov 23 06:30:54 puppet puppet-agent[47644]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 06:30:54 puppet puppet-agent[47644]: getaddrinfo: Name or service not known
+Nov 23 06:30:55 puppet puppet-agent[47644]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 06:30:56 puppet puppet-agent[47644]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 06:30:57 puppet puppet-agent[47644]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 06:30:57 puppet puppet-agent[47644]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 06:30:59 puppet puppet-agent[47644]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 06:30:59 puppet puppet-agent[47644]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 06:31:00 puppet puppet-agent[47644]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 15:05:27 puppet ntpd[1582]: 0.0.0.0 061c 0c clock_step +29922.291953 s
+Nov 23 15:05:27 puppet ntpd[1582]: 0.0.0.0 0615 05 clock_sync
+Nov 23 15:05:27 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:4f8:0:2::19#53
+Nov 23 15:05:27 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:71::30#53
+Nov 23 15:05:27 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:60::30#53
+Nov 23 15:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.alpha.aridns.net.au/A/IN': 2001:dcd:3::5#53
+Nov 23 15:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/A/IN': 2001:dcd:3::5#53
+Nov 23 15:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.alpha.aridns.net.au/AAAA/IN': 2001:dcd:3::5#53
+Nov 23 15:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/AAAA/IN': 2001:dcd:3::5#53
+Nov 23 15:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/AAAA/IN': 2001:dcd:2::2#53
+Nov 23 15:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/A/IN': 2001:dcd:2::2#53
+Nov 23 15:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.gamma.aridns.net.au/A/IN': 2001:dcd:2::2#53
+Nov 23 15:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.gamma.aridns.net.au/AAAA/IN': 2001:dcd:2::2#53
+Nov 23 15:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/AAAA/IN': 2001:dcd:4::2#53
+Nov 23 15:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/A/IN': 2001:dcd:4::2#53
+Nov 23 15:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.gamma.aridns.net.au/A/IN': 2001:dcd:4::2#53
+Nov 23 15:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.gamma.aridns.net.au/AAAA/IN': 2001:dcd:4::2#53
+Nov 23 15:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.biz/A/IN': 2001:503:e239::3:2#53
+Nov 23 15:05:28 puppet ntpd[1582]: 0.0.0.0 c618 08 no_sys_peer
+Nov 23 15:05:31 puppet puppet-agent[47834]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 15:05:31 puppet puppet-agent[47834]: getaddrinfo: Name or service not known
+Nov 23 15:05:32 puppet puppet-agent[47834]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 15:05:33 puppet puppet-agent[47834]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 15:05:33 puppet puppet-agent[47834]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 15:05:34 puppet puppet-agent[47834]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 15:05:36 puppet puppet-agent[47834]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 15:05:36 puppet puppet-agent[47834]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 15:05:37 puppet puppet-agent[47834]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 15:35:31 puppet puppet-agent[48120]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 15:35:31 puppet puppet-agent[48120]: getaddrinfo: Name or service not known
+Nov 23 15:35:32 puppet puppet-agent[48120]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 15:35:33 puppet puppet-agent[48120]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 15:35:34 puppet puppet-agent[48120]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 15:35:34 puppet puppet-agent[48120]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 15:35:36 puppet puppet-agent[48120]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 15:35:36 puppet puppet-agent[48120]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 15:35:37 puppet puppet-agent[48120]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 16:05:31 puppet puppet-agent[48431]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 16:05:31 puppet puppet-agent[48431]: getaddrinfo: Name or service not known
+Nov 23 16:05:32 puppet puppet-agent[48431]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 16:05:33 puppet puppet-agent[48431]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 16:05:34 puppet puppet-agent[48431]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 16:05:34 puppet puppet-agent[48431]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 16:05:36 puppet puppet-agent[48431]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 16:05:36 puppet puppet-agent[48431]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 16:05:37 puppet puppet-agent[48431]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 16:35:31 puppet puppet-agent[48713]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 16:35:31 puppet puppet-agent[48713]: getaddrinfo: Name or service not known
+Nov 23 16:35:32 puppet puppet-agent[48713]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 16:35:33 puppet puppet-agent[48713]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 16:35:34 puppet puppet-agent[48713]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 16:35:34 puppet puppet-agent[48713]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 16:35:36 puppet puppet-agent[48713]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 16:35:36 puppet puppet-agent[48713]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 16:35:37 puppet puppet-agent[48713]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 17:05:28 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DLV/IN': 2001:503:ba3e::2:30#53
+Nov 23 17:05:29 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2001:7fd::1#53
+Nov 23 17:05:29 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2001:7fd::1#53
+Nov 23 17:05:29 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2001:500:2d::d#53
+Nov 23 17:05:29 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2001:500:2d::d#53
+Nov 23 17:05:29 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2001:500:49::1#53
+Nov 23 17:05:29 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2001:500:49::1#53
+Nov 23 17:05:29 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DLV/IN': 2001:4f8:0:2::20#53
+Nov 23 17:05:29 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DLV/IN': 2001:500:71::29#53
+Nov 23 17:05:29 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/A/IN': 2001:500:3::42#53
+Nov 23 17:05:29 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/AAAA/IN': 2001:500:3::42#53
+Nov 23 17:05:29 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2a01:8840:7::1#53
+Nov 23 17:05:29 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2a01:8840:6::1#53
+Nov 23 17:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/A/IN': 2001:dcd:1::2#53
+Nov 23 17:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/AAAA/IN': 2001:dcd:1::2#53
+Nov 23 17:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2001:500:19::1#53
+Nov 23 17:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2001:500:41::1#53
+Nov 23 17:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'ns2.isc.ultradns.net/A/IN': 2001:502:8cc::30#53
+Nov 23 17:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'ns2.isc.ultradns.net/A/IN': 2001:dcd:3::2#53
+Nov 23 17:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'ns2.isc.ultradns.net/A/IN': 2610:a1:1015::e8#53
+Nov 23 17:05:32 puppet puppet-agent[49026]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 17:05:32 puppet puppet-agent[49026]: getaddrinfo: Name or service not known
+Nov 23 17:05:33 puppet puppet-agent[49026]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 17:05:33 puppet puppet-agent[49026]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 17:05:34 puppet puppet-agent[49026]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 17:05:35 puppet puppet-agent[49026]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 17:05:37 puppet puppet-agent[49026]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 17:05:37 puppet puppet-agent[49026]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 17:05:38 puppet puppet-agent[49026]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 17:35:31 puppet puppet-agent[49308]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 17:35:31 puppet puppet-agent[49308]: getaddrinfo: Name or service not known
+Nov 23 17:35:32 puppet puppet-agent[49308]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 17:35:32 puppet puppet-agent[49308]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 17:35:33 puppet puppet-agent[49308]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 17:35:34 puppet puppet-agent[49308]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 17:35:36 puppet puppet-agent[49308]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 17:35:36 puppet puppet-agent[49308]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 17:35:37 puppet puppet-agent[49308]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 18:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:60::30#53
+Nov 23 18:05:31 puppet puppet-agent[49828]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 18:05:31 puppet puppet-agent[49828]: getaddrinfo: Name or service not known
+Nov 23 18:05:32 puppet puppet-agent[49828]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 18:05:32 puppet puppet-agent[49828]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 18:05:33 puppet puppet-agent[49828]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 18:05:34 puppet puppet-agent[49828]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 18:05:36 puppet puppet-agent[49828]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 18:05:36 puppet puppet-agent[49828]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 18:05:37 puppet puppet-agent[49828]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 18:35:31 puppet puppet-agent[50125]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 18:35:31 puppet puppet-agent[50125]: getaddrinfo: Name or service not known
+Nov 23 18:35:32 puppet puppet-agent[50125]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 18:35:33 puppet puppet-agent[50125]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 18:35:34 puppet puppet-agent[50125]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 18:35:34 puppet puppet-agent[50125]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 18:35:36 puppet puppet-agent[50125]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 18:35:36 puppet puppet-agent[50125]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 18:35:37 puppet puppet-agent[50125]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 19:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:71::29#53
+Nov 23 19:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.info/A/IN': 2001:500:19::1#53
+Nov 23 19:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.info/AAAA/IN': 2001:500:19::1#53
+Nov 23 19:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.alpha.aridns.net.au/A/IN': 2001:dcd:3::2#53
+Nov 23 19:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.alpha.aridns.net.au/A/IN': 2001:dcd:2::2#53
+Nov 23 19:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.delta.aridns.net.au/A/IN': 2001:dcd:3::2#53
+Nov 23 19:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.delta.aridns.net.au/AAAA/IN': 2001:dcd:3::2#53
+Nov 23 19:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.delta.aridns.net.au/A/IN': 2001:dcd:2::2#53
+Nov 23 19:05:30 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.delta.aridns.net.au/AAAA/IN': 2001:dcd:2::2#53
+Nov 23 19:05:31 puppet puppet-agent[50437]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 19:05:31 puppet puppet-agent[50437]: getaddrinfo: Name or service not known
+Nov 23 19:05:32 puppet puppet-agent[50437]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 19:05:32 puppet puppet-agent[50437]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 19:05:33 puppet puppet-agent[50437]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 19:05:34 puppet puppet-agent[50437]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 19:05:36 puppet puppet-agent[50437]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 19:05:36 puppet puppet-agent[50437]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 19:05:37 puppet puppet-agent[50437]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 19:35:32 puppet puppet-agent[50719]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 19:35:32 puppet puppet-agent[50719]: getaddrinfo: Name or service not known
+Nov 23 19:35:33 puppet puppet-agent[50719]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 19:35:33 puppet puppet-agent[50719]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 19:35:34 puppet puppet-agent[50719]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 19:35:35 puppet puppet-agent[50719]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 19:35:37 puppet puppet-agent[50719]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 19:35:37 puppet puppet-agent[50719]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 19:35:38 puppet puppet-agent[50719]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:4f8:0:2::19#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2a01:8840:9::1#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2a01:8840:9::1#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2a01:8840:8::1#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2a01:8840:8::1#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2a01:8840:7::1#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2a01:8840:7::1#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2a01:8840:6::1#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2a01:8840:6::1#53
+Nov 23 20:05:31 puppet puppet-agent[51031]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 20:05:31 puppet puppet-agent[51031]: getaddrinfo: Name or service not known
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:4f8:0:2::20#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:71::29#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/A/IN': 2001:dcd:1::2#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/AAAA/IN': 2001:dcd:1::2#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:60::29#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.com/AAAA/IN': 2001:503:231d::2:30#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.com/AAAA/IN': 2001:503:eea3::30#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.com/A/IN': 2001:503:eea3::30#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.com/AAAA/IN': 2001:503:83eb::30#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.com/A/IN': 2001:503:83eb::30#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.com/AAAA/IN': 2001:503:a83e::2:30#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.com/A/IN': 2001:503:a83e::2:30#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.com/AAAA/IN': 2001:500:856e::30#53
+Nov 23 20:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.com/A/IN': 2001:500:856e::30#53
+Nov 23 20:05:32 puppet puppet-agent[51031]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 20:05:32 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DLV/IN': 2001:502:2eda::23#53
+Nov 23 20:05:32 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DLV/IN': 2001:500:2c::254#53
+Nov 23 20:05:33 puppet puppet-agent[51031]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 20:05:34 puppet puppet-agent[51031]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 20:05:34 puppet puppet-agent[51031]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 20:05:36 puppet puppet-agent[51031]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 20:05:36 puppet puppet-agent[51031]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 20:05:37 puppet puppet-agent[51031]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 20:35:32 puppet puppet-agent[51313]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 20:35:32 puppet puppet-agent[51313]: getaddrinfo: Name or service not known
+Nov 23 20:35:33 puppet puppet-agent[51313]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 20:35:33 puppet puppet-agent[51313]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 20:35:34 puppet puppet-agent[51313]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 20:35:35 puppet puppet-agent[51313]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 20:35:37 puppet puppet-agent[51313]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 20:35:37 puppet puppet-agent[51313]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 20:35:38 puppet puppet-agent[51313]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 21:05:31 puppet puppet-agent[51625]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 21:05:31 puppet puppet-agent[51625]: getaddrinfo: Name or service not known
+Nov 23 21:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.ams.sns-pb.isc.org/A/IN': 2001:4f8:0:2::19#53
+Nov 23 21:05:31 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.ams.sns-pb.isc.org/AAAA/IN': 2001:4f8:0:2::19#53
+Nov 23 21:05:32 puppet puppet-agent[51625]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 21:05:33 puppet puppet-agent[51625]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 21:05:34 puppet puppet-agent[51625]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 21:05:34 puppet puppet-agent[51625]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 21:05:36 puppet puppet-agent[51625]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 21:05:36 puppet puppet-agent[51625]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 21:05:37 puppet puppet-agent[51625]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 21:35:31 puppet puppet-agent[51907]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 21:35:31 puppet puppet-agent[51907]: getaddrinfo: Name or service not known
+Nov 23 21:35:32 puppet puppet-agent[51907]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 21:35:33 puppet puppet-agent[51907]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 21:35:34 puppet puppet-agent[51907]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 21:35:34 puppet puppet-agent[51907]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 21:35:36 puppet puppet-agent[51907]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 21:35:36 puppet puppet-agent[51907]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 21:35:37 puppet puppet-agent[51907]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 22:05:31 puppet puppet-agent[52219]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 22:05:31 puppet puppet-agent[52219]: getaddrinfo: Name or service not known
+Nov 23 22:05:32 puppet puppet-agent[52219]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 22:05:32 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.co.uk/AAAA/IN': 2610:a1:1016::e8#53
+Nov 23 22:05:33 puppet puppet-agent[52219]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 22:05:33 puppet named-sdb[1434]: error (network unreachable) resolving 'ns2.isc.ultradns.net/AAAA/IN': 2610:a1:1016::e8#53
+Nov 23 22:05:33 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/A/IN': 2610:a1:1016::e8#53
+Nov 23 22:05:33 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/AAAA/IN': 2610:a1:1016::e8#53
+Nov 23 22:05:34 puppet puppet-agent[52219]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 22:05:34 puppet puppet-agent[52219]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 22:05:36 puppet puppet-agent[52219]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 22:05:36 puppet puppet-agent[52219]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 22:05:37 puppet puppet-agent[52219]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 22:35:31 puppet puppet-agent[52501]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 22:35:31 puppet puppet-agent[52501]: getaddrinfo: Name or service not known
+Nov 23 22:35:32 puppet puppet-agent[52501]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 22:35:33 puppet puppet-agent[52501]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 22:35:34 puppet puppet-agent[52501]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 22:35:34 puppet puppet-agent[52501]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 22:35:36 puppet puppet-agent[52501]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 22:35:36 puppet puppet-agent[52501]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 22:35:37 puppet puppet-agent[52501]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 23:05:32 puppet puppet-agent[52813]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 23:05:32 puppet puppet-agent[52813]: getaddrinfo: Name or service not known
+Nov 23 23:05:32 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:2c::254#53
+Nov 23 23:05:32 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:60::29#53
+Nov 23 23:05:33 puppet puppet-agent[52813]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 23:05:33 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:4f8:0:2::20#53
+Nov 23 23:05:33 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:71::29#53
+Nov 23 23:05:33 puppet puppet-agent[52813]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 23:05:34 puppet puppet-agent[52813]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 23:05:35 puppet puppet-agent[52813]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 23:05:37 puppet puppet-agent[52813]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 23:05:37 puppet puppet-agent[52813]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 23:05:38 puppet puppet-agent[52813]: Could not send report: getaddrinfo: Name or service not known
+Nov 23 23:26:35 puppet rz[53451]: [root] Selector_Ftp.zip/ZMODEM: 18223 Bytes, 1221869 BPS
+Nov 23 23:27:56 puppet rz[53457]: [root] E03.BD.720p.rmvb/ZMODEM: 667990467 Bytes, 21086283 BPS
+Nov 23 23:35:31 puppet puppet-agent[53621]: Unable to fetch my node definition, but the agent run will continue:
+Nov 23 23:35:31 puppet puppet-agent[53621]: getaddrinfo: Name or service not known
+Nov 23 23:35:32 puppet puppet-agent[53621]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 23:35:33 puppet puppet-agent[53621]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 23 23:35:34 puppet puppet-agent[53621]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 23 23:35:35 puppet puppet-agent[53621]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 23 23:35:37 puppet puppet-agent[53621]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 23 23:35:37 puppet puppet-agent[53621]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 23 23:35:38 puppet puppet-agent[53621]: Could not send report: getaddrinfo: Name or service not known
+Nov 24 00:05:31 puppet puppet-agent[53947]: Unable to fetch my node definition, but the agent run will continue:
+Nov 24 00:05:31 puppet puppet-agent[53947]: getaddrinfo: Name or service not known
+Nov 24 00:05:32 puppet puppet-agent[53947]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 00:05:33 puppet puppet-agent[53947]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 24 00:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:60::29#53
+Nov 24 00:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/A/IN': 2001:502:f3ff::e8#53
+Nov 24 00:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'ns1.isc.ultradns.net/AAAA/IN': 2001:502:f3ff::e8#53
+Nov 24 00:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.biz/A/IN': 2001:502:ad09::30#53
+Nov 24 00:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.biz/AAAA/IN': 2001:502:ad09::30#53
+Nov 24 00:05:34 puppet puppet-agent[53947]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 00:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/A/IN': 2407:6e00:254:306::73#53
+Nov 24 00:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DLV/IN': 2001:502:ad09::23#53
+Nov 24 00:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.biz/AAAA/IN': 2610:a1:1015::e8#53
+Nov 24 00:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'pdns196.ultradns.biz/AAAA/IN': 2001:502:4612::e8#53
+Nov 24 00:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/A/IN': 2001:dcd:4::5#53
+Nov 24 00:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/A/IN': 2001:dcd:2::5#53
+Nov 24 00:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'ari.beta.aridns.net.au/A/IN': 2001:dcd:1::5#53
+Nov 24 00:05:34 puppet puppet-agent[53947]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 24 00:05:36 puppet puppet-agent[53947]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 24 00:05:36 puppet puppet-agent[53947]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 24 00:05:37 puppet puppet-agent[53947]: Could not send report: getaddrinfo: Name or service not known
+Nov 24 00:35:31 puppet puppet-agent[54229]: Unable to fetch my node definition, but the agent run will continue:
+Nov 24 00:35:31 puppet puppet-agent[54229]: getaddrinfo: Name or service not known
+Nov 24 00:35:32 puppet puppet-agent[54229]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 00:35:33 puppet puppet-agent[54229]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 24 00:35:34 puppet puppet-agent[54229]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 00:35:34 puppet puppet-agent[54229]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 24 00:35:36 puppet puppet-agent[54229]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 24 00:35:36 puppet puppet-agent[54229]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 24 00:35:37 puppet puppet-agent[54229]: Could not send report: getaddrinfo: Name or service not known
+Nov 24 01:05:31 puppet puppet-agent[54546]: Unable to fetch my node definition, but the agent run will continue:
+Nov 24 01:05:31 puppet puppet-agent[54546]: getaddrinfo: Name or service not known
+Nov 24 01:05:32 puppet puppet-agent[54546]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 01:05:33 puppet puppet-agent[54546]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 24 01:05:34 puppet puppet-agent[54546]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 01:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:71::29#53
+Nov 24 01:05:34 puppet puppet-agent[54546]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 24 01:05:36 puppet puppet-agent[54546]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 24 01:05:36 puppet puppet-agent[54546]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 24 01:05:37 puppet puppet-agent[54546]: Could not send report: getaddrinfo: Name or service not known
+Nov 24 01:35:32 puppet puppet-agent[54828]: Unable to fetch my node definition, but the agent run will continue:
+Nov 24 01:35:32 puppet puppet-agent[54828]: getaddrinfo: Name or service not known
+Nov 24 01:35:32 puppet puppet-agent[54828]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 01:35:33 puppet puppet-agent[54828]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 24 01:35:34 puppet puppet-agent[54828]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 01:35:35 puppet puppet-agent[54828]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 24 01:35:37 puppet puppet-agent[54828]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 24 01:35:37 puppet puppet-agent[54828]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 24 01:35:38 puppet puppet-agent[54828]: Could not send report: getaddrinfo: Name or service not known
+Nov 24 02:05:32 puppet puppet-agent[55145]: Unable to fetch my node definition, but the agent run will continue:
+Nov 24 02:05:32 puppet puppet-agent[55145]: getaddrinfo: Name or service not known
+Nov 24 02:05:32 puppet puppet-agent[55145]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 02:05:33 puppet puppet-agent[55145]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 24 02:05:34 puppet puppet-agent[55145]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 02:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2a01:8840:6::1#53
+Nov 24 02:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2a01:8840:6::1#53
+Nov 24 02:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2a01:8840:9::1#53
+Nov 24 02:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2a01:8840:9::1#53
+Nov 24 02:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/A/IN': 2a01:8840:7::1#53
+Nov 24 02:05:34 puppet named-sdb[1434]: error (network unreachable) resolving 'ns.isc.afilias-nst.info/AAAA/IN': 2a01:8840:7::1#53
+Nov 24 02:05:35 puppet named-sdb[1434]: error (network unreachable) resolving 'dlv.isc.org/DNSKEY/IN': 2001:500:60::29#53
+Nov 24 02:05:35 puppet puppet-agent[55145]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 24 02:05:37 puppet puppet-agent[55145]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 24 02:05:37 puppet puppet-agent[55145]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 24 02:05:38 puppet puppet-agent[55145]: Could not send report: getaddrinfo: Name or service not known
+Nov 24 02:35:31 puppet puppet-agent[55446]: Unable to fetch my node definition, but the agent run will continue:
+Nov 24 02:35:31 puppet puppet-agent[55446]: getaddrinfo: Name or service not known
+Nov 24 02:35:32 puppet puppet-agent[55446]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 02:35:32 puppet puppet-agent[55446]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 24 02:35:33 puppet puppet-agent[55446]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 02:35:34 puppet puppet-agent[55446]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 24 02:35:36 puppet puppet-agent[55446]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 24 02:35:36 puppet puppet-agent[55446]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 24 02:35:37 puppet puppet-agent[55446]: Could not send report: getaddrinfo: Name or service not known
+Nov 24 03:05:32 puppet puppet-agent[55763]: Unable to fetch my node definition, but the agent run will continue:
+Nov 24 03:05:32 puppet puppet-agent[55763]: getaddrinfo: Name or service not known
+Nov 24 03:05:32 puppet puppet-agent[55763]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 03:05:33 puppet puppet-agent[55763]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 24 03:05:34 puppet puppet-agent[55763]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 03:05:35 puppet puppet-agent[55763]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 24 03:05:37 puppet puppet-agent[55763]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 24 03:05:37 puppet puppet-agent[55763]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 24 03:05:38 puppet puppet-agent[55763]: Could not send report: getaddrinfo: Name or service not known
+Nov 24 03:35:31 puppet puppet-agent[56165]: Unable to fetch my node definition, but the agent run will continue:
+Nov 24 03:35:31 puppet puppet-agent[56165]: getaddrinfo: Name or service not known
+Nov 24 03:35:32 puppet puppet-agent[56165]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 03:35:33 puppet puppet-agent[56165]: (/File[/opt/puppetlabs/puppet/cache/facts.d]) Could not evaluate: Could not retrieve file metadata for puppet:///pluginfacts: getaddrinfo: Name or service not known
+Nov 24 03:35:34 puppet puppet-agent[56165]: (/File[/opt/puppetlabs/puppet/cache/lib]) Failed to generate additional resources using 'eval_generate': getaddrinfo: Name or service not known
+Nov 24 03:35:34 puppet puppet-agent[56165]: (/File[/opt/puppetlabs/puppet/cache/lib]) Could not evaluate: Could not retrieve file metadata for puppet:///plugins: getaddrinfo: Name or service not known
+Nov 24 03:35:36 puppet puppet-agent[56165]: Could not retrieve catalog from remote server: getaddrinfo: Name or service not known
+Nov 24 03:35:36 puppet puppet-agent[56165]: Failed to apply catalog: Could not find dependency Package[rsync] for File[rsync] at /etc/puppetlabs/code/environments/production/modules/rsync/manifests/init.pp:2
+Nov 24 03:35:37 puppet puppet-agent[56165]: Could not send report: getaddrinfo: Name or service not known

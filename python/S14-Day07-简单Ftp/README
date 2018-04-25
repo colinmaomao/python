@@ -1,0 +1,110 @@
+作者:yaobin
+版本:简单Ftp示例版本 v0.1
+开发环境: python3.6
+
+程序介绍:
+1. 用户登陆
+2. 上传/下载文件
+3. 不同用户家目录不同
+4. 查看当前目录下文件
+5. 充分使用面向对象知识
+
+使用说明:
+1.可以在Linux和Windows都可以运行
+2.Linux调用了cd,mkdir,ls,rm,命令
+3.Windows调用了cd,md,dir,del,命令
+On Linux,Windows
+Client: Python3 ./Ftp_Client.py
+put 上传
+get 下载
+mkdir 创建目录
+ls  查看文件信息
+rm  删除文件
+drm 删除目录
+Server:Python3 ./Ftp_Server.py
+put 上传
+get 下载
+mkdir 创建目录
+ls  查看文件信息
+rm  删除文件
+drm 删除目录
+
+文件目录结构:
+├─简单Ftp            #程序执行目录
+│  README
+│  __init__.py
+│
+├─bin
+│      Ftp_Client.py    #客户端程序
+│      Ftp_Server.py    #服务器端程序
+│      __init__.py
+│
+├─conf
+│  │  setting.py        #配置文件
+│  │  __init__.py
+│  │
+│  └─__pycache__
+│          setting.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│
+├─core
+│  │  auth.py           #用户验证逻辑交互
+│  │  commands.py       #命令逻辑交互
+│  │  ftp_client.py     #sock_客户端逻辑交互
+│  │  ftp_server.py     #sock_服务端逻辑交互
+│  │  logger.py         #日志逻辑交互---未完成
+│  │  main.py           #客户端程序
+│  │  __init__.py
+│  │
+│  └─__pycache__
+│          auth.cpython-36.pyc
+│          commands.cpython-36.pyc
+│          ftp_client.cpython-36.pyc
+│          ftp_server.cpython-36.pyc
+│          main.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│
+├─db
+│  │  __init__.py
+│  │
+│  ├─colin              #用户目录
+│  │  │  colin.bak
+│  │  │  colin.dat      #用户账号密码文件
+│  │  │  colin.dir
+│  │  │  __init__.py
+│  │  │
+│  │  └─colin           #用户ftp家目录
+│  │      │  __init__.py
+│  │      │
+│  │      └─aaa
+│  ├─pub                #ftp程序模拟pub目录
+│  │      FTP作业.7z
+│  │      socket通信client.py
+│  │      __init__.py
+│  │      选课系统.png
+│  │
+│  └─user_path          #用户路径文件,判断用户进入系统后在哪里处理
+│          path
+│
+├─logs                  #日志未完成
+│      access.log
+│      transmission.log
+│      __init__.py
+│
+├─src
+│  │  auth_class.py         #用户验证类
+│  │  linux_cmd_class.py    #linux命令类
+│  │  server_class.py       #server_socket类
+│  │  windows_cmd_class.py  #server命令类
+│  │  __init__.py
+│  │
+│  └─__pycache__
+│          auth_class.cpython-36.pyc
+│          linux_cmd_class.cpython-36.pyc
+│          server_class.cpython-36.pyc
+│          windows_cmd_class.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│
+└─test                  #c测试
+        args_test.py
+        __init__.py

@@ -1,0 +1,54 @@
+作者:yaobin
+版本:简单Ftp示例版本 v0.1
+开发环境: python3.6
+
+程序介绍:
+类 Fabric 主机管理程序开发：
+1. 运行程序列出主机组或者主机列表
+2. 选择指定主机或主机组
+3. 选择让主机或者主机组执行命令或者向其传输文件（上传/下载）
+4. 充分使用多线程或多进程
+5. 不同主机的用户名密码、端口可以不同
+
+使用说明:
+
+/bin/fortress_machine
+
+├─bin
+│      fortress_machine.py #程序主目录
+│      __init__.py
+│
+├─conf
+│  │  server_list
+│  │  setting.py
+│  │  __init__.py
+│  │
+│
+├─core
+│  │  add_machine.py   #添加server字典程序
+│  │  basic_dict.py    #初始化字典程序
+│  │  fortress_main.py  #交互程序
+│  │  group_paramiko.py  #组管理交互程序
+│  │  group_sftp.py      #组上传/下载交互程序
+│  │  server_paramiko.py  #server管理交互程序
+│  │  server_sftp.py    #server上传/下载交互程序
+│  │  __init__.py
+│  │
+│  └─__pycache__
+├─db
+│  ├─download   #文件下载目录
+│  └─upload     #文件上传目录
+│          AutoResponder.xml
+│
+├─logs
+│      __init__.py
+│
+└─model
+    │  prettytable.py  PrettyTable模块
+    │  __init__.py
+    │
+    ├─paramiko  paramiko 模块
+    │
+    └─__pycache__
+            prettytable.cpython-36.pyc
+            __init__.cpython-36.pyc

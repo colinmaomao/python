@@ -1,0 +1,56 @@
+作者:yaobin
+版本:示例版本 v0.1 mmp版本  :(
+程序介绍:
+
+1. 创建北京、上海 2 所学校
+2. 创建linux , python , go 3个课程 ， linux\py 在北京开， go 在上海开
+3. 课程包含，周期，价格，通过学校创建课程 
+4. 通过学校创建班级， 班级关联课程、讲师
+5. 创建学员时，选择学校，关联班级
+5. 创建讲师角色时要关联学校， 
+6. 提供两个角色接口
+6.1 学员视图， 可以注册， 交学费， 选择班级，
+6.2 讲师视图， 讲师可管理自己的班级， 上课时选择班级， 查看班级学员列表 ， 修改所管理的学员的成绩 
+6.3 管理视图，创建讲师， 创建班级，创建课程
+7. 上面的操作产生的数据都通过pickle序列化保存到文件里
+
+文件目录
+
+---选课系统 #主程序目录
+│  README
+│  __init__.py
+│
+├─bin
+│      Course_Selecting.py #主程序
+│      __init__.py
+│
+├─conf
+│  │  setting.py  #配置文件
+│  │  __init__.py
+│
+├─core
+│  │  main.py           #主逻辑交互程序
+│  │  school_view.py    #学校视图
+│  │  student_view.py   #学生视图
+│  │  teacher_view.py   #老师视图
+│  │  __init__.py
+│
+├─db
+│      1.py
+│      school.bak
+│      school.dat           #数据db
+│      school.dir
+│
+├─logs
+│      __init__.py
+│
+├─src
+│  │  class_classroom.py  #教室类
+│  │  class_course.py     #课程类
+│  │  class_school.py     #学校类
+│  │  class_student.py    #学生类
+│  │  class_teacher.py    #老师类
+│  │  __init__.py
+│
+└─test
+        __init__.py
